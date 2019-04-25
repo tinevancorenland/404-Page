@@ -1,6 +1,12 @@
 body{
-    background-color: #43464b;
+    background-color: black;
+    background-image: url(https://ametia.files.wordpress.com/2013/12/lionel-richie300.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
 img{
@@ -9,7 +15,15 @@ img{
 }
 
 h1{
+    margin-left: 690px;
     font-size: 400%;
+    color: white;
+    margin-bottom: 0;
+}
+
+h4{
+    margin-top: 0;
+    margin-left: 690px;
     color: white;
 }
 
