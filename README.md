@@ -1,5 +1,5 @@
 # 404-Page
-[404] https://tinevancorenland.github.io/404-Page/)
+[404](https://tinevancorenland.github.io/404-Page/)
 
 ## Objectives
 
