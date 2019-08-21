@@ -1,41 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
 body{
     background-color: black;
-    background-image: url(https://ametia.files.wordpress.com/2013/12/lionel-richie300.jpg);
-    background-image: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-    margin-top: 50px;
-    padding-top: 50px;
 }
 
-img{
-    margin: auto;
-    margin-top: 100px;
+#container {
+  padding: 25px;
+  width: 100%;
+  position: relative;
 }
 
-h1{
-    margin-left: 690px;
-    font-size: 400%;
-    color: white;
-    margin-bottom: 0;
+#gif {
+  margin-top: 5%;  
+  width: 40%; 
+  margin-left: auto;  
+  margin-right: auto; 
 }
 
-h4{
-    margin-top: 0;
-    margin-left: 690px;
-    color: white;
+h3{
+   color: hotpink;
+   font-family: 'Dancing Script', cursive;
+   font-size: 30px;
+   text-align: center;
+   margin-top: 0;
 }
 
-h2, h3{
-   color: white;
+#errorMessage {
+  color: whitesmoke;
+  position: absolute;
+  top: 15%;
+  left: 60%;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: Helvetica, sans-serif;
+}
+
+#goHome {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a:link, a:visited {
     text-decoration: none;
-    background-color: white;
+    background-color: whitesmoke;
     color: #43464b;
-    padding: 14px 25px;
+    border: 2px solid hotpink;
+    font-family: Helvetica, sans-serif;
+    padding: 20px 25px;
     text-align: center;
     display: inline-block;
 }
@@ -125,7 +139,7 @@ a:hover{
     animation-name: bounceInLeft;
   }
 
-  h2 {
+  h3 {
     animation-name: bounceInLeft;
     animation-duration: 5s;
   }
